@@ -20,7 +20,7 @@ let veiculo = prompt("Digite um veículo: ")
 
 // Exemplo de uso
 verificarCompra(veiculo);           // Compra efetuada com sucesso
-verificarCompra('sedan');           // Tem certeza que não prefere este modelo?
-verificarCompra('motocicleta');     // Tem certeza que não prefere este modelo?
-verificarCompra('caminhonete');     // Tem certeza que não prefere este modelo?
-verificarCompra('esportivo');       // Não trabalhamos com este tipo de automóvel aqui
+verificarCompra(veiculo);           // Tem certeza que não prefere este modelo?
+verificarCompra(veiculo);     // Tem cereza que não prefere este modelo?
+verificarCompra(veiculo);     // Tem certeza que não prefere este modelo?
+verificarCompra(veiculo);       // Não trabalhamos com este tipo de automóvel aqui
